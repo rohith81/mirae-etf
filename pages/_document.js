@@ -1,11 +1,18 @@
+import Header from "@/components/header";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+      <title>Mirae Asset ETF</title>
+      <link rel="icon" href="/favicon.png"/>
+      </Head>
       <body>
-        <Main />
+        <Header/>
+        <main>
+          <Main />
+        </main>
         <NextScript />
       </body>
     </Html>

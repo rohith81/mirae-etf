@@ -1,0 +1,51 @@
+/* Global CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.2s ease-in-out;
+}
+body {
+	font-family: "SpoqaHanSansNeo-Regular";
+	scroll-behavior: smooth;
+	background: #ffffff;
+}
+.maxWidth {
+	max-width: 1360px;
+	margin: auto;
+	width: 100%;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.common-padding {
+	padding: 70px 30px;
+}
+.header {
+  background-color: #FAFBFF;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+main {
+  width: 100%;
+  margin-top: 103px;
+}
+p {
+  color: #585E6B;
+  font-size: 16px;
+}
+h2 {
+  color: #002B57;
+  font-size: 32px;
+	font-family: "SpoqaHanSansNeo-Medium";
+}
+
+/* HomePage CSS */
+.banner {
+  background-color: #F58220;
+  padding: 35px 0;
+}
+/* HomePage CSS */
